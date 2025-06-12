@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Quary Css</title>
+    <style>
+        body {
+            background: skyblue;
+        }
+        
+        @media only screen and (max-width: 400px) {
+            body {
+                background: blue;
+            }
+        }
+        
+        .boxes {
+            display: flex;
+        }
+        
+        .box {
+            width: 350px;
+            height: 300px;
+            margin: 3px;
+            padding: 3px;
+            background: #000;
+        }
+        
+        .box1 {
+            width: 350px;
+            height: 300px;
+            margin: 3px;
+            padding: 3px;
+            background: #f80202;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="boxes">
+        <div class="box"></div>
+        <div class="box1"></div>
+        <div class="box2"></div>
+    </div>
+
+</body>
+
+</html>
